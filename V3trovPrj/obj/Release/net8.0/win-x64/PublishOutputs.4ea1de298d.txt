@@ -1,0 +1,6 @@
+C:\Users\VFlov\Documents\Github\V3trovPrj\V3trovPrj\bin\Release\net8.0\publish\win-x64\V3trovPrj.pdb
+C:\Users\VFlov\Documents\Github\V3trovPrj\V3trovPrj\bin\Release\net8.0\publish\win-x64\av_libglesv2.dll
+C:\Users\VFlov\Documents\Github\V3trovPrj\V3trovPrj\bin\Release\net8.0\publish\win-x64\libHarfBuzzSharp.dll
+C:\Users\VFlov\Documents\Github\V3trovPrj\V3trovPrj\bin\Release\net8.0\publish\win-x64\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\VFlov\Documents\Github\V3trovPrj\V3trovPrj\bin\Release\net8.0\publish\win-x64\libSkiaSharp.dll
+C:\Users\VFlov\Documents\Github\V3trovPrj\V3trovPrj\bin\Release\net8.0\publish\win-x64\V3trovPrj.exe

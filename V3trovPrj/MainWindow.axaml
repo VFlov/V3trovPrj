@@ -1,0 +1,24 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        ExtendClientAreaToDecorationsHint="True"
+        Background="White"
+        Width="600" Height="360"
+        x:Class="V3trovPrj.MainWindow"
+        Title="V3trovPrj">
+
+	<Border CornerRadius="10" Background="White">
+		<StackPanel>
+			<TextBlock Text="APP NAME" Height="70" Foreground="White" Background="#007AFF" DockPanel.Dock="Top" Margin="0,0,0,0" FontSize="26" />
+			<Grid>
+				<TextBlock Grid.Column="0" Text="Все программы" Foreground="Black" HorizontalAlignment="Left" Margin="30,10,0,0" FontSize="26" />
+				<ComboBox x:Name="comboBoxSort" SelectionChanged="ComboBox_SelectionChanged" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,10,30,0" Grid.Column="1" Background="White" BorderBrush="#007AFF" CornerRadius="10" BorderThickness="1" Foreground="#007AFF" />
+			</Grid>
+			<Border VerticalAlignment="Bottom" Height="230">
+				<ScrollViewer>
+					<WrapPanel x:Name="CardWrapPanel" Orientation="Horizontal" Margin="0,0,0,0" />
+				</ScrollViewer>
+			</Border>
+		</StackPanel>
+	</Border>
+
+</Window>

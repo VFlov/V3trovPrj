@@ -1,0 +1,20 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="V3trovPrj.SoftwareDetailWindow"
+        TransparencyLevelHint="AcrylicBlur"
+        Background="Transparent"
+        ExtendClientAreaToDecorationsHint="True"
+        CanResize="False"
+        Title="Software Details" Width="200" Height="300">
+
+    <DockPanel LastChildFill="True">
+        <Button Name="Download" Click="Button_Click" HorizontalAlignment="Center" DockPanel.Dock="Bottom" Width="150">
+            <TextBlock Text="Download" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <StackPanel Margin="0, 0, 0, 40">
+            <Image Name="Icon" Stretch="UniformToFill" Width="100" Margin="35"/>
+            <TextBlock Name="Name" FontSize="18" HorizontalAlignment="Center" Margin="5"/>
+            <TextBlock Name="Description" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10"/>
+        </StackPanel>
+    </DockPanel>
+</Window>
